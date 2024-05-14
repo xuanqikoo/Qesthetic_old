@@ -1,0 +1,227 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url('../image/backgroundhome.jpg');
+    background-size:cover;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    
+}
+
+.logo{
+    width: 220px;
+    margin-left: 70px;
+   
+}
+
+.user{
+    width: 20px;
+    margin-right: 70px;
+    
+    transition: all 0.3s ease 0s;
+}
+
+.user:hover{
+    opacity: 80%;
+    width: 21px;
+}
+
+nav{
+    
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 27px;
+    list-style: none;
+}
+
+
+li a{
+    font-family: "Gilroy-Light",sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    position: relative;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: #4f4788;
+}
+
+.nav_links a::before{
+    content: '';
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background:#4f4788;
+}
+
+.nav_links a:hover::before{
+   width: 100%;
+}
+
+
+footer{
+    display: flex;
+    
+    border-top: 1px solid black;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+    
+    height: 20px;
+   
+
+}
+
+
+.copyright{
+    
+    position: relative;
+    bottom: 15px;
+    font-family: "Gilroy-Bold",sans-serif;
+    font-size: 12px
+    
+
+}
+
+.icons li{
+    
+    display: inline-block;
+    list-style: none;
+    margin-left: 10px;
+    position: relative;
+    bottom: 21px;
+
+    
+}
+.tiktok,.twitter,.instagram,.facebook,.youtube,.pinterest,.email{
+    width: 12px;
+}
+
+.icons li a{
+    transition: all 0.3s ease 0s
+}
+
+.icons li a:hover{
+    opacity: 60%;
+}
+
+section{
+    
+    height: 655px;
+}
+
+.flower{
+    
+    position: relative;
+    top:20px;
+    left: 350px;
+    height: 600px;
+    
+}
+
+.slogan li{
+    
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    bottom: 280px;
+    left: 240px;
+    margin-right: 36px;
+    height: 40px;
+}
+
+li p{
+    font-family: "Gilroy-Bold",sans-serif;
+    font-size: 40px;
+    color: black;
+    position: relative;
+    bottom: 45px;
+}
+
+.art{
+    padding-left: 10px;
+    border-left: 3px solid black;
+}
+
+.description{
+  
+   position: relative;
+   bottom: 370px;
+   left: 950px;
+   width: 300px;
+   height: 160px;
+   padding-left: 3px;
+   border-left: 3px solid black;
+    
+}
+
+.a,.b,.c{
+    font-family: "Gilroy-Light",sans-serif;
+    font-size: 23px;
+}
+
+.d{
+    font-family: "Gilroy-Bold",sans-serif;
+    font-size: 24px;
+    position: relative;
+    bottom: 77px;
+    left:60px;
+}
+
+.c{
+    position: relative;
+    bottom: 25px;
+}
+.a,.b{
+    position: relative;
+    bottom: 1px;
+}
+
+.container{
+    width:200px;
+    position: relative;
+    bottom: 380px;
+    left: 685px;
+    border-radius: 15px;
+    height: 35px;
+    background: #dbb3c6;
+    
+}
+
+.learn{
+    font-family: "Gilroy-Bold",sans-serif;
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 33px;
+    top: 2px;
+}
+
+.container a{
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.5s ease 0s;
+}
+
+.container a:hover{
+    opacity: 60%;
+}

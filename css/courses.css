@@ -1,0 +1,403 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url('../image/backgroundcourses.jpg');
+    background-size:cover;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    
+}
+
+.logo{
+    width: 220px;
+    margin-left: 70px;
+   
+}
+
+.user{
+    width: 20px;
+    margin-right: 70px;
+    
+    transition: all 0.3s ease 0s;
+}
+
+.user:hover{
+    opacity: 80%;
+    width: 21px;
+}
+
+nav{
+    
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 27px;
+    list-style: none;
+}
+
+
+li a{
+    font-family: "Gilroy-Light",sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    position: relative;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: #4f4788;
+}
+
+.nav_links a::before{
+    content: '';
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background:#4f4788;
+}
+
+.nav_links a:hover::before{
+   width: 100%;
+}
+
+
+footer{
+    display: flex;
+    
+    border-top: 1px solid black;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+    
+    height: 20px;
+   
+
+}
+
+
+.copyright{
+    
+    position: relative;
+    bottom: 15px;
+    font-family: "Gilroy-Bold",sans-serif;
+    font-size: 12px
+    
+
+}
+
+.icons li{
+    
+    display: inline-block;
+    list-style: none;
+    margin-left: 10px;
+    position: relative;
+    bottom: 21px;
+
+    
+}
+.tiktok,.twitter,.instagram,.facebook,.youtube,.pinterest,.email{
+    width: 12px;
+}
+
+.icons li a{
+    transition: all 0.3s ease 0s
+}
+
+.icons li a:hover{
+    opacity: 60%;
+}
+
+section{
+    height: 610px;
+    
+}
+
+.courses{
+    
+    font-family: "Gilroy-Heavy",sans-serif;
+    font-size: 50px;
+    width: 410px;
+    position: relative;
+    left: 580px;
+    bottom: 30px;
+}
+
+.basic,.advance,.digital{
+    width: 380px;
+}
+
+.basic{
+    position: relative;
+    top: 1px;
+}
+
+.courses-image{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 70px;
+    position:relative;
+    bottom:98px;
+    
+}
+
+.photo,.video,.edit{
+    width: 380px;
+}
+
+.courses-image2{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 70px;
+    position:relative;
+    bottom:55px;
+        
+}
+
+.ps1{
+   
+    width: 200px;
+    font-family: "Gilroy-Light",sans-serif;
+    font-size: 22px;
+    position: relative;
+    bottom: 385px;
+    left: 93px;
+}
+
+.ps2{
+   
+    width: 250px;
+    font-family: "Gilroy-Light",sans-serif;
+    font-size: 22px;
+    position: relative;
+    bottom: 430px;
+    left: 590px;
+
+}
+
+.dg{
+     width: 250px;
+    font-family: "Gilroy-Light",sans-serif;
+    font-size: 22px;
+    position: relative;
+    bottom: 480px;
+    left: 1085px;
+}
+
+.photography{
+     width: 250px;
+    font-family: "Gilroy-Light",sans-serif;
+    font-size: 22px;
+    position: relative;
+    bottom: 240px;
+    left: 93px;
+}
+
+.videography{
+    width: 250px;
+    font-family: "Gilroy-Light",sans-serif;
+    font-size: 22px;
+    position: relative;
+    bottom: 290px;
+    left: 590px;
+
+}
+
+.videoedit{
+    width: 250px;
+    font-family: "Gilroy-Light",sans-serif;
+    font-size: 22px;
+    position: relative;
+    bottom: 340px;
+    left: 1085px;
+}
+
+.container1{
+    width: 345px;
+    height: 25px;
+    position: relative;
+    left: 95px;
+    bottom: 635px;
+    border-radius: 10px;
+    background: #a79ed9;
+}
+
+
+.m1{
+    font-family: "Gilroy-Bold",sans-serif;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 110px;
+}
+
+.container1 a{
+    text-decoration: none;
+ transition: all 0.5s ease 0s;
+}
+
+.container1 a:hover{
+    opacity: 50%;
+}
+
+
+.container2{
+    width: 345px;
+    height: 25px;
+    position: relative;
+    left: 95px;
+    bottom: 390px;
+    border-radius: 10px;
+    background: #a79ed9;
+}
+
+
+.m2{
+    font-family: "Gilroy-Bold",sans-serif;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 110px;
+}
+
+.container2 a{
+    text-decoration: none;
+ transition: all 0.5s ease 0s;
+}
+
+.container2 a:hover{
+    opacity: 50%;
+}
+
+
+.container3{
+    width: 345px;
+    height: 25px;
+    position: relative;
+    left: 590px;
+    bottom: 725px;
+    border-radius: 10px;
+    background: #a79ed9;
+}
+
+
+.m3{
+    font-family: "Gilroy-Bold",sans-serif;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 110px;
+}
+
+.container3 a{
+    text-decoration: none;
+     transition: all 0.5s ease 0s;
+}
+
+.container3 a:hover{
+    opacity: 50%;
+}
+
+
+.container4{
+    width: 345px;
+    height: 25px;
+    position: relative;
+    left: 590px;
+    bottom: 481px;
+    border-radius: 10px;
+    background: #a79ed9;
+}
+
+
+.m4{
+    font-family: "Gilroy-Bold",sans-serif;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 110px;
+}
+
+.container4 a{
+    text-decoration: none;
+    transition: all 0.5s ease 0s;
+}
+
+.container4 a:hover{
+    opacity: 50%;
+}
+
+.container5{
+    width: 345px;
+    height: 25px;
+    position: relative;
+    left: 1085px;
+    bottom: 795px;
+    border-radius: 10px;
+    background: #a79ed9;
+}
+
+
+.m5{
+    font-family: "Gilroy-Bold",sans-serif;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 110px;
+}
+
+.container5 a{
+    text-decoration: none;
+    transition: all 0.5s ease 0s;
+}
+
+.container5 a:hover{
+    opacity: 50%;
+    
+}
+
+.container6{
+     width: 345px;
+    height: 25px;
+     border-radius: 10px;
+    background: #a79ed9;
+    position: relative;
+    top: 264px;
+}
+
+.m6{
+    font-family: "Gilroy-Bold",sans-serif;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 110px;
+}
+
+.container6 a{
+    transition: all 0.5s ease 0s;
+}
+
+.container6 a:hover{
+    opacity: 50%;
+    
+}

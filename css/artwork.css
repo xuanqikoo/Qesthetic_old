@@ -1,0 +1,226 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url('../image/backgroundartwork.jpg');
+    background-size:cover;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    
+}
+
+.logo{
+    width: 220px;
+    margin-left: 70px;
+   
+}
+
+.user{
+    width: 20px;
+    margin-right: 70px;
+    
+    transition: all 0.3s ease 0s;
+}
+
+.user:hover{
+    opacity: 80%;
+    width: 21px;
+}
+
+nav{
+    
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 27px;
+    list-style: none;
+}
+
+
+li a{
+    font-family: "Gilroy-Light",sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    position: relative;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: #4f4788;
+}
+
+.nav_links a::before{
+    content: '';
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background:#4f4788;
+}
+
+.nav_links a:hover::before{
+   width: 100%;
+}
+
+
+footer{
+    display: flex;
+    
+    border-top: 1px solid black;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+    
+    height: 20px;
+   
+
+}
+
+
+.copyright{
+    
+    position: relative;
+    bottom: 15px;
+    font-family: "Gilroy-Bold",sans-serif;
+    font-size: 12px
+    
+
+}
+
+.icons li{
+    
+    display: inline-block;
+    list-style: none;
+    margin-left: 10px;
+    position: relative;
+    bottom: 21px;
+
+    
+}
+.tiktok,.twitter,.instagram,.facebook,.youtube,.pinterest,.email{
+    width: 12px;
+}
+
+.icons li a{
+    transition: all 0.3s ease 0s
+}
+
+.icons li a:hover{
+    opacity: 60%;
+}
+
+section{
+    
+    height: 600px;
+}
+
+.artwork-title{
+    font-family: "Gilroy-Heavy",sans-serif;
+    font-size: 50px;
+    width: 400px;
+    position: relative;
+    left: 600px;
+    bottom: 35px;
+}
+
+.fourartwork{
+    width: 1518px;
+    position: relative;
+    bottom: 30px;
+}
+
+.joker{
+  position: relative;
+  bottom: 300px;
+  left: 550px
+}
+
+.photography{
+    font-family: "Gilroy-Bold",sans-serif;
+    font-size: 18px;
+    position:relative;
+    bottom: 310px;
+    left: 700px;
+    width: 120px;
+    
+}
+
+.animation{
+    font-family: "Gilroy-Bold",sans-serif;
+    font-size: 15px;
+    position:relative;
+    bottom: 390px;
+    left: 220px;
+    width: 100px;
+}
+
+.portrait{
+    font-family: "Gilroy-Bold",sans-serif;
+    font-size: 15px;
+    position:relative;
+    bottom: 415px;
+    left: 1160px;
+    width: 300px;
+}
+
+.p1{
+    font-family: "Gilroy-Light",sans-serif;
+    font-size: 20px; 
+    position: relative;
+    bottom: 390px;
+    width: 430px;
+    left: 560px;
+}
+
+.p2{
+    font-family: "Gilroy-Light",sans-serif;
+    font-size: 28px; 
+    width: 500px;
+    position: relative;
+    bottom: 410px;
+    left: 535px;
+}
+
+.container{
+    width:425px;
+    position: relative;
+    bottom: 430px;
+    left: 550px;
+    border-radius: 15px;
+    height: 50px;
+    background: #db8cb3;
+}
+
+.learn{
+    font-family: "Gilroy-Bold",sans-serif;
+    font-size:50px;
+    color: white;
+    position: relative;
+    left: 70px;
+    bottom: 6px;
+}
+
+.container a{
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.5s ease 0s;
+}
+
+.container a:hover{
+    opacity: 60%;
+}

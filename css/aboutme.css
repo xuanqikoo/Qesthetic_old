@@ -1,0 +1,323 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url('../image/backgroundaboutme.jpg');
+    background-size:cover;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    
+}
+
+.logo{
+    width: 220px;
+    margin-left: 70px;
+   
+}
+
+.user{
+    width: 20px;
+    margin-right: 70px;
+    
+    transition: all 0.3s ease 0s;
+}
+
+.user:hover{
+    opacity: 80%;
+    width: 21px;
+}
+
+nav{
+    
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 27px;
+    list-style: none;
+}
+
+
+li a{
+    font-family: "Gilroy-Light",sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    position: relative;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: #4f4788;
+}
+
+.nav_links a::before{
+    content: '';
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background:#4f4788;
+}
+
+.nav_links a:hover::before{
+   width: 100%;
+}
+
+
+footer{
+    display: flex;
+    
+    border-top: 1px solid black;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+    
+    height: 20px;
+   
+
+}
+
+
+.copyright{
+    
+    position: relative;
+    bottom: 15px;
+    font-family: "Gilroy-Bold",sans-serif;
+    font-size: 12px
+    
+
+}
+
+.icons li{
+    
+    display: inline-block;
+    list-style: none;
+    margin-left: 10px;
+    position: relative;
+    bottom: 21px;
+
+    
+}
+.tiktok,.twitter,.instagram,.facebook,.youtube,.pinterest,.email{
+    width: 12px;
+}
+
+.icons li a{
+    transition: all 0.3s ease 0s
+}
+
+.icons li a:hover{
+    opacity: 60%;
+}
+
+section{
+    
+    height: 4200px;
+}
+
+.sinxu{
+    width: 470px;
+    position: relative;
+    top: 2750px;
+    left: 220px;
+    
+}
+
+.justin{
+    width: 470px;
+    position: relative;
+    top: 2600px;
+    right: 100px;
+    
+}
+
+.me{
+    width:470px;
+    position: relative;
+    left: 850px;
+    top: 50px;
+}
+
+.me2{
+    width: 470px;
+    position: relative;
+    top: 890px;
+    right: 250px
+}
+
+.group_photo img{
+    
+    width: 280px;
+    position: relative;
+    top: 650px;
+    left: 250px;
+
+}
+
+.sinxu2{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.aboutme{
+    font-family: "Gilroy-Heavy",sans-serif;
+    font-size: 70px;
+   
+    width: 500px;
+    position: relative;
+    bottom: 1880px;
+    left:300px;
+}
+
+.introduction{
+    font-family: "Gilroy-Bold",sans-serif;
+    width: 300px;
+    font-size: 35px;
+    position: relative;
+    bottom: 1930px;
+    left: 300px
+}
+
+.who{
+    width: 400px;
+    font-family: "Gilroy-Bold",sans-serif;
+    font-size: 60px;
+    position: relative;
+    bottom: 1950px;
+    left: 300px
+}
+
+.para1{
+    width: 500px;
+    position: relative;
+    bottom: 1960px;
+    left: 300px;
+    font-family: "Gilroy-Light",sans-serif;
+    font-size: 25px;
+    
+    
+}
+
+.experience{
+    font-family: "Gilroy-Bold",sans-serif;
+    font-size: 60px;
+    position: relative;
+    bottom: 1755px;
+    left: 800px;
+    width: 500px;
+}
+
+.what{
+    font-family: "Gilroy-Bold",sans-serif;
+    width: 350px;
+    font-size: 35px;
+     position: relative;
+    bottom: 1755px;
+    left: 800px;
+}
+
+.para2{
+    font-family: "Gilroy-Light",sans-serif;
+    font-size: 25px;
+    position: relative;
+    bottom: 1700px;
+    left: 800px;
+    width: 500px
+    
+}
+
+.team{
+    font-family: "Gilroy-Bold",sans-serif;
+    font-size: 70px;
+    width: 400px;
+    position: relative;
+    bottom: 1400px;
+    left: 630px;
+}
+
+.para3{
+    font-family: "Gilroy-Light",sans-serif;
+    font-size: 25px;
+    position: relative;
+    bottom: 1450px;
+    left: 260px;
+    width: 1072px;
+}
+
+.who2{
+    font-family: "Gilroy-Bold",sans-serif;
+    font-size: 50px;
+    position: relative;
+    bottom: 900px;
+    width:500px;
+    left: 250px
+}
+
+.assistant{
+    font-family: "Gilroy-Bold",sans-serif;
+    font-size: 60px;
+    width: 500px;
+    position: relative;
+    bottom: 850px;
+    left: 250px;
+    
+}
+
+.n1{
+    font-family: "Gilroy-Bold",sans-serif;
+    font-size: 60px;
+    width: 500px;
+    position: relative;
+    left: 250px;
+    bottom: 900px;
+}
+
+.para4{
+    font-family: "Gilroy-Light",sans-serif;
+    font-size: 25px;
+    position: relative;
+    bottom: 900px;
+    left: 250px;
+    width: 500px;
+}
+
+.web{
+     font-family: "Gilroy-Bold",sans-serif;
+    font-size: 60px;
+    width: 500px;
+    position: relative;
+    left: 800px;
+    bottom: 550px;
+}
+
+.n2{
+      font-family: "Gilroy-Bold",sans-serif;
+    font-size: 60px;
+    width: 500px;
+    position: relative;
+    left: 800px;
+    bottom: 750px;
+}
+
+.para5{
+    font-family: "Gilroy-Light",sans-serif;
+    font-size: 25px;
+    position: relative;
+    left: 800px;
+    width: 500px;
+    bottom: 450px;
+}
